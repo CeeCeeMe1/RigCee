@@ -141,8 +141,8 @@ class RigCeeMappingPropertyGroup(bpy.types.PropertyGroup):
 
     import_armature: bpy.props.EnumProperty(
         items=populate_armature_enum,
-        name="Edit armature",
-        description="Select an armature to edit",
+        name="Import armature",
+        description="Select an armature to rig",
         default=None
     )
 
@@ -156,8 +156,8 @@ class RigCeeMappingPropertyGroup(bpy.types.PropertyGroup):
 
     target_armature: bpy.props.EnumProperty(
         items=populate_armature_enum,
-        name="Other armature",
-        description="Select the other armature for the operation",
+        name="Target armature",
+        description="Select the armature to rig to",
         default=None
     )
 

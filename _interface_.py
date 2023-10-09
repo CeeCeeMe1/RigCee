@@ -67,8 +67,8 @@ class RIGCEE_PT_BoneMappingPanel(bpy.types.Panel):
 
         mapping_props = context.scene.bone_mapping_props
 
-        layout.prop(mapping_props, "target_start_bone", icon='BONE_DATA')
         layout.prop(mapping_props, "import_start_bone", icon='BONE_DATA')
+        layout.prop(mapping_props, "target_start_bone", icon='BONE_DATA')
 
         row = layout.row(align=True)
         row.prop(mapping_props, "bone_mapping_file")
