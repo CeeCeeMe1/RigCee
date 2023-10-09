@@ -18,8 +18,8 @@ class RIGCEE_OT_Presets(AddPresetBase, bpy.types.Operator):
     @classmethod
     def register(cls):
         my_presets = os.path.join("presets", "RigCee")
-        if not os.path.isdir(my_presets): 
-            os.makedirs(my_presets)
+        # if not os.path.isdir(my_presets): 
+        #     os.makedirs(my_presets)
 
     preset_defines = [
         "scene = bpy.context.scene"
