@@ -58,6 +58,9 @@ Select the Target armature and open the Unreal Engine pane.
 Set Export type to recursive in Object properties.
 Choose 'custom reference' in Skeleton search mode.
 
+Paste this link as the reference skelton:
+**Skeleton'/Game/Core/Assets/Skeletons/ALS_Mannequin_Skeleton.ALS_Mannequin_Skeleton'**
+
 **Save(as) the blender file**
 
 Open the Export process panel. Check potential errors fix if needed and export for Unreal Engine.
