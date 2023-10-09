@@ -17,9 +17,15 @@ The central start bone in the Target armature, should be 'pelvis' for the unreal
 ### Bone mapping file
 Export and import the bone mapping to and from a json file.
 
+**NOTE: the bone mapping UI does not update after importing a file. BUT the bone mapping is loaded and will work**
+
 **The filename is saved in the presets but you must explicitly import the file after loading a preset.**
 
-The bone mapping itself is not part of the settings.
+## Bone mapping Panel
+The bone mapping itself is **NOT** saved in the presets!
+
+Make sure the mapping is complete and that you don't map to the same bone more than once!
+This will result errors in the scripts.
 
 ### Rename bones
 This is the first action to execute, this will rename the bones in the Import armature the mapped bone name in the Target armature.
